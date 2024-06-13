@@ -1,0 +1,96 @@
+<aside id="left-panel">
+    <nav>
+        <ul data-smart-menu>
+            <li>
+                <button id="new-button">
+                    <a id="activity" class="activity-dropdown" dropdown-toggle><span>NEW</span></a>
+                    <div class="ajax-dropdown">
+                        <div  data-toggle="buttons">
+                            <li left-sidebar id="employee">
+                                <a data-ui-sref="app.newEmployee" data-ui-sref-active="active"><i class="fa fa-lg fa-fw fa-group fa-2x"></i> <span
+                                        class="menu-item-parent">Employee</span></a>
+                            </li>
+
+                            <li left-sidebar id="user">
+                                <a data-ui-sref="app.newUser" data-ui-sref-active="active"><i class="fa fa-lg fa-fw fa-user fa-2x"></i> <span
+                                        class="menu-item-parent">User</span></a>
+                            </li>
+
+                            <li left-sidebar id="organization">
+                                <a data-ui-sref="app.newOrganization" data-ui-sref-active="active"><i class="fa fa-lg fa-fw fa-building-o fa-2x"></i> <span
+                                        class="menu-item-parent">Client</span></a>
+                            </li>
+
+                            <li left-sidebar id="project">
+                                <a data-ui-sref="app.newProject" data-ui-sref-active="active"><i class="fa fa-lg fa-fw fa-suitcase fa-2x"></i> <span
+                                        class="menu-item-parent">Project</span></a>
+                            </li>
+
+                            <li>
+                                <a data-ui-sref="app.newEmail" data-ui-sref-active="active"><i class="fa fa-lg fa-fw fa-envelope-o fa-2x"></i> <span
+                                        class="menu-item-parent">Email</span></a>
+                            </li>
+
+                            <li>
+                                <a  title="Starred"><i class="fa fa-lg fa-fw fa-star fa-2x"></i> <span
+                                        class="menu-item-parent">Favorites</span></a>
+                            </li>
+                        </div>
+
+                    </div>
+                </button>
+            </li>
+
+            <li>
+                <a data-ui-sref="app.employees({employeesType: 'All'})" data-ui-sref-active="active"><i class="fa fa-lg fa-fw fa-cog fa-2x"></i> <span
+                        class="menu-item-parent">Dashboard</span></a>
+            </li>
+
+            <li left-sidebar id="users">
+                <a class="activity-button"><i class="fa fa-lg fa-fw fa-user-md fa-2x"></i> <span
+                        class="menu-item-parent">Users</span></a>
+            </li>
+
+            <li>
+                <a  data-ui-sref="app.employees({employeesType: 'All'})" data-ui-sref-active="active"><i class="fa fa-lg fa-fw fa-group fa-2x"></i> <span
+                        class="menu-item-parent">Employees</span></a>
+            </li>
+
+            <li>
+                <a   data-ui-sref="app.clients" data-ui-sref-active="active"><i class="fa fa-lg fa-fw fa-building-o fa-2x"></i> <span
+                        class="menu-item-parent">Clients</span></a>
+            </li>
+
+            <li>
+                <a   data-ui-sref="app.projects" data-ui-sref-active="active"><i class="fa fa-lg fa-fw fa-suitcase fa-2x"></i> <span
+                        class="menu-item-parent">Projects</span></a>
+            </li>
+
+            <li>
+                <a data-ui-sref="app.email" data-ui-sref-active="active"><i class="fa fa-lg fa-fw fa-envelope-o fa-2x"></i> <span
+                        class="menu-item-parent">Email</span></a>
+            </li>
+
+            <li>
+                <a data-ui-sref="app.tasks" data-ui-sref-active="active"><i class="fa fa-lg fa-fw fa-check-square-o fa-2x"></i> <span
+                        class="menu-item-parent">Tasks</span></a>
+            </li>
+
+            <li>
+                <a data-ui-sref="app.reports" data-ui-sref-active="active"><i class="fa fa-lg fa-fw fa-bar-chart-o fa-2x"></i> <span
+                        class="menu-item-parent">Reports</span></a>
+            </li>
+
+
+            <li>
+                <a  title="Starred"><i class="fa fa-lg fa-fw fa-star fa-2x"></i> <span
+                        class="menu-item-parent">Favorites</span></a>
+            </li>
+        </ul>
+    </nav>
+
+    <span class="minifyme" data-action="minifyMenu" minify-menu>
+        <i class="fa fa-arrow-circle-left hit"></i>
+    </span>
+
+</aside>
